@@ -43,7 +43,7 @@ public:
 
 char action() {
   char act;
-  std::cout << "Enter the desired operation: ";
+  std::cout << "Enter the desired operation [e->encrypt | d->decrypt]: ";
   std::cin >> act;
   return act;
 }
